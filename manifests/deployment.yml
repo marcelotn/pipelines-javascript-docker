@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
         - name: marcelotnpipelinesjavascriptdocker 
-          image: myacrtoko.azurecr.io/marcelotnpipelinesjavascriptdocker
+          image: acrtoko.azurecr.io/marcelotnpipelinesjavascriptdocker
           ports:
           - containerPort: 8080

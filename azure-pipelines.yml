@@ -13,7 +13,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'cb4dac1b-0e66-450c-92d3-f55102367d0f'
   imageRepository: 'marcelotnpipelinesjavascriptdocker'
-  containerRegistry: 'myacrtoko.azurecr.io'
+  containerRegistry: 'tokoacr.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'myacrtokodda7-auth'
